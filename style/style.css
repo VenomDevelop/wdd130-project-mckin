@@ -1,0 +1,60 @@
+#imggrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    font-size: 20px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+}
+
+#topbox {
+    display: grid;
+    grid-template-columns: 6fr auto auto;
+    gap: 10px;
+    margin: 30px;
+    font-size: 20px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+}
+
+.profilepic {
+    height: 50px;
+    border-radius: 50%;
+}
+
+main {
+    min-height: 80vh;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #bababa;
+    height: 125px;
+    font-family: "Fredoka", sans-serif;
+    text-decoration: none;
+}
+
+#topfoot {
+    font-size: 40px;
+    color: #747474;
+}
+
+#bottomfoot {
+    font-size: 25px;
+    color: #747474;
+}
+
+.purple {
+    color: rgb(183, 50, 255);
+}
+
+.orange {
+    color: rgb(255, 159, 50);
+}
+
+#sitelogo {
+    font-size: 35px;
+}
